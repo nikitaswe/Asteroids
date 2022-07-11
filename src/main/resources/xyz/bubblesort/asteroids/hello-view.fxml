@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+
+<?import javafx.scene.text.Text?>
+<Pane fx:id="root" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="xyz.bubblesort.asteroids.AsteroidsController"
+      onKeyPressed="#handlePressed"
+      onKeyReleased="#handleReleased">
+        <Text fx:id="scoreText" text="Score: 0" x="10" y="20" />
+        <Text fx:id="bestScoreText" text="Best Score: 0" x="10" y="40" />
+        <Text text="Press ESC to close a game" x="330" y="20" opacity="0.4" />
+        <Pane fx:id="gameArea"/>
+</Pane>
